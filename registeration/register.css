@@ -1,0 +1,75 @@
+/* Reset some default styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Handjet, sans-serif;
+  height: 100%;
+}
+
+
+.container {
+  width: 300px; /* Set a fixed width */
+  padding: 20px;
+  background-color: transparent; /* White background for contrast */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the text */
+  color: white;
+  border: solid 1px;
+  backdrop-filter: blur(20px);
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius:30px;
+}
+
+.signup-button {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.placeholderking{
+  margin-right: 20px;
+}
+
+::placeholder{
+  color: white;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 45px;
+  background: transparent;
+}
+

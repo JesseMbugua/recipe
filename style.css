@@ -1,0 +1,88 @@
+/* Reset */
+body, html, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff; /* Background color of the navbar area */
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff; /* White background */
+  border-bottom: 1px solid #e0e0e0; /* Light gray bottom border */
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px; /* Adjust logo size */
+  margin-right: 20px; /* Space between logo and menu */
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Spacing between menu items */
+  align-items: center;
+}
+
+.navbar-menu li {
+  position: relative;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: #333333; /* Dark text color */
+  font-weight: bold;
+  padding: 5px;
+  transition: color 0.3s ease;
+}
+
+.navbar-menu li a:hover {
+  color: #ff6600; /* Hover color */
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Spacing between newsletter button and icons */
+}
+
+.login-button {
+  background-color: #ffd966; /* Yellow background similar to the image */
+  color: #333333; /* Text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-button:hover {
+  background-color: #ffc107; /* Slightly darker on hover */
+}
+
+.icon-heart, .icon-search {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.icon-heart {
+  color: #ff6600; /* Heart icon color */
+}
+
+.icon-search {
+  color: #666666; /* Search icon color */
+}
